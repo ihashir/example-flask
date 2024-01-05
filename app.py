@@ -22,6 +22,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     thr = Thread(target=testTask)
+    thr.start()
     return 'Hello from Koyeb'
 
 
