@@ -12,6 +12,7 @@ def testTask():
     #   "https://discord.com/api/v9/channels/1101192501689339974/messages",
     #   data=data,
     #   headers=headers)
+    requests.get('https://7d28f4dc-e3a8-4350-a3e6-fda63344af08-00-kq4anog4pxyl.picard.replit.dev/')
     print("working")
     time.sleep(4)
     n=n+1
